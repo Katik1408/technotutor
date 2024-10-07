@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        /* p{
+                color:green;
+                font-size: 100px;
+                font-family: 'Algerian', 'Arial Narrow', Arial, sans-serif;
+
+            }
+
+            .customclass{
+                margin-top: 20px;
+                margin-left:50px; /*  Terminator   
+                color:yellowgreen;
+                
+            }
+            #someid{
+                color:red;
+            } */
+
+        div p {
+            color: red
+        }
+
+        div+p {
+            color: green;
+        }
+
+        div~p {
+            color: yellow;
+        }
+
+        .box {
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            margin: 25px;
+            padding: 5px;
+        }
+
+        
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <ul class="menu">
+        <li> <a href="http://127.0.0.1:5500/index.html"> Home</a></li>
+        <li> <a href="#about"> About</a></li>
+        <li> <a href="http://127.0.0.1:5500/second.html"> Second</a></li>
+        <li> <a href="#contact"> Contact</a></li>
+    </ul>
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <h2 style="color:rgba(150, 59, 59,0.1)">Welcome to page 2</h2>
+
+    <p style="margin-top:20px">This is a sample text </p>
+
+    <p class="customclass"> This is another text</p>
+
+    <span class="customclass" id="someid">Some text in span</span>
+
+    <div>
+        <p>
+            This p element is inside div
+        </p>
+        <p>
+            This is another p element inside div
+        </p>
+    </div>
+    <p>Another p</p>
+    <span>in between</span>
+    <p>
+        This is outside
+    </p>
+
+
+    <div class="box">
+
+        <p>Some Text</p>
+        <p>Some Text</p>
+
+    </div>
+</body>
+
+</html>
