@@ -136,4 +136,4 @@ switch (day) {
     default:
         console.log('Please enter vaild number');
 }
-console.log('After Switch')
+console.log('After Switch') 
