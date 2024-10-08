@@ -136,4 +136,71 @@ switch (day) {
     default:
         console.log('Please enter vaild number');
 }
-console.log('After Switch') 
+console.log('After Switch')
+
+
+
+//Functions ---> 
+
+// () ==> paranthesis
+//Definition of the Function
+function sample(num) {
+
+    num = num * 3;
+    console.log('Salary is ' + num);
+
+    console.log('Inside function');
+
+}
+
+
+
+let salary = 21000;
+
+//Calling of the function
+sample(salary);  // Argurment
+
+function factorial(n){
+
+    if(n===0 || n===1 ){
+        return 1;
+       
+    } else {
+        return n * factorial(n-1);
+    }
+}
+let num = 0;
+let fact = factorial(num);
+console.log('Factorial of '+ num +' is ' + fact);
+
+/**
+ * 
+ *  '='  ==> Assignment Operator
+ *  '==' ==> Compares two values
+ *  '===' ===> Compares two values and their datatypes
+ * 
+ * 
+ * 
+ */
+
+var value = 3;
+var anvalue = '3';
+
+
+// if(value == anvalue){
+//     console.log('Both are same')
+// }
+
+
+// if(value === anvalue){
+//     console.log('Both are same')
+// }else{
+//     console.log('Both are differnet')
+// }
+
+
+
+// function factorial(n){
+    
+//     for()
+// }
